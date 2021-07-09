@@ -709,10 +709,13 @@
   "@mamie:mamieserv.fr": {
     "name": "Mamie"
   },
-  "@sumner:sumnerevans.com":{
+  "@sumner:sumnerevans.com": {
     "name": "Sumner"
   },
   "@libexus:matrix.org": {
     "name": "Libexus"
+  },
+  "@gwmngilfen:matrix.org": {
+    "name": "Gwmngilfen"
   }
 }
