@@ -726,5 +726,32 @@
   },
   "@rockyreidel:reidellawfirm.com": {
     "name": "Schuyler \"Rocky\" Reidel"
+  },
+  "@felix:haecker.io": {
+    "name": "Felix"
+  },
+  "@simon.brandner:envs.net": {
+    "name": "Šimon Brandner"
+  },
+  "@arobertlong:matrix.org": {
+    "name": "Robert Long"
+  },
+  "@toger5:matrix.org": {
+    "name": "Timo"
+  },
+  "@ajbura:matrix.org": {
+    "name": "ajbura"
+  },
+  "@alphapapa:matrix.org": {
+    "name": "alphapapa"
+  },
+  "@j3s:cyberia.club": {
+    "name": "j3s (he/him)"
+  },
+  "@hengyedev:matrix.org": {
+    "name": "hengyedev"
+  },
+  "@tadzik:tadzik.net": {
+    "name": "tadzik"
   }
 }
