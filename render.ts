@@ -296,22 +296,24 @@ async function downloadImage (url, path) {
     })
 }
 
-function generateHeader() {
+async function generateHeader() {
     if (program.debug) return "";
+
+    let userName = (await getUserDisplayname(userId)).displayname;
 
     return `---
 date: '${ds()}'
 title: 'This Week in Matrix ${ds()}'
 categories:
   - This Week in Matrix
-author: Ben Parsons
+author: '${userName}'
 image: TODO
 ---\n\n`;
 }
 
-function outputAll() {
+async function outputAll() {
     var result:string = "";
-    result += generateHeader();
+    result += await generateHeader();
     result += `## Matrix Live 🎙\n\n`;
 
     let sortedSections = Object.values(sections).sort((a:any, b:any) => {
