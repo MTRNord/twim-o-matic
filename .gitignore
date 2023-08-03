@@ -1,9 +1,2 @@
-config/
-!config/access_token.sample.json
-node_modules/
-events/
-blog/
+node_modules
 *.js
-*.map
-out.md
-.DS_Store

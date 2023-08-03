@@ -3,21 +3,13 @@
   "version": "0.1.0",
   "repository": "https://github.com/matrix-org/twim-o-matic",
   "description": "Can be used to help produce new editions of This Week in Matrix",
-  "main": "watch.js",
+  "main": "ping_standalone.js",
   "dependencies": {
-    "axios": "^0.21.1",
-    "commander": "^5.1.0",
-    "express": "^4.17.1",
-    "markdown-it": "^12.0.4",
-    "matrix-bot-sdk": "^0.5.19",
-    "moment": "^2.27.0",
-    "pug": "^3.0.0",
-    "request": "^2.88.2",
-    "request-promise": "^4.2.5",
-    "typescript": "^4.3.5"
+    "request-promise": "^4.2.5"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "@types/node": "^20.4.6",
+    "typescript": "^5.1.6"
   },
   "author": "https://github.com/benparsons",
   "license": "MIT"
