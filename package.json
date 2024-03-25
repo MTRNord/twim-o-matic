@@ -4,12 +4,13 @@
   "repository": "https://github.com/matrix-org/twim-o-matic",
   "description": "Can be used to help produce new editions of This Week in Matrix",
   "main": "ping_standalone.js",
+  "type": "module",
   "dependencies": {
-    "request-promise": "^4.2.5"
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
-    "@types/node": "^20.4.6",
-    "typescript": "^5.1.6"
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.3"
   },
   "author": "https://github.com/benparsons",
   "license": "MIT"
