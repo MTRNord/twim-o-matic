@@ -83,5 +83,8 @@ export default function (bodyLower: any, section: string) {
         bodyLower.includes("full-time")) {
         section = "jobs";
     }
+    else if (bodyLower.includes("twim-o-matic")) {
+        section = "twim-o-matic";
+    }
     return section;
 }

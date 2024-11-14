@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "test": "echo \"No tests are defined for this repository.\"",
+    "build": "npm install && npx tsc",
+    "launch": "npm install && npx tsc --watch *.ts --sourcemap && node watch.js"
+  }
+}

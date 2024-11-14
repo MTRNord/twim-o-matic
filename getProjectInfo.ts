@@ -57,6 +57,7 @@ export default function (body: string) {
     if (body.includes("watchalongs")) sections["projects"]++;
     if (body.includes("tweeting along")) sections["projects"]++;
     if (body.includes("doctor-who-watchalong:abolivier.bzh")) sections["projects"]++;
+    if (body.includes("twim-o-matic")) sections["twim-o-matic"]++;
     
     Object.keys(sections).forEach(key => {
         if (sections[key] > maxScore) {

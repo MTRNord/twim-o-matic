@@ -222,5 +222,15 @@
         "order": 4000,
         "icon": "💭",
         "title": "Final Thoughts 💭"
+    },
+    "twim-o-matic": {
+        "order": 4100,
+        "icon": "📝",
+        "title": "twim-o-matic",
+        "hints": [
+            "twim-o-matic",
+            "This Week in Matrix",
+            "TWIM"
+        ]
     }
 }

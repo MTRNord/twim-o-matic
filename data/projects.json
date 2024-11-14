@@ -119,5 +119,9 @@
     "https://git.feneas.org/jaywink/matrix-alertmanager": {
         "title": "Matrix-Alertmanager",
         "summary": "A bot to receive Alertmanager webhook events and forward them to chosen rooms."
+    },
+    "twim-o-matic": {
+        "summary": "[twim-o-matic](https://github.com/matrix-org/twim-o-matic) is a tool to help produce new editions of the 'This Week in Matrix' (TWIM) blog. To set it up, install dependencies using npm, create necessary directories, and configure access tokens. The tool watches for specific emoji reactions on stories to log event IDs. To clear the stored list, use the clear command. After collecting events, run the render command to generate a markdown file (out.md) which can be edited and published. The render command has options for debugging, highlighting missing summaries, processing media, getting ping-room data, and starting a server to render the result. The final markdown file should be copied to the appropriate location in the matrix.org blog repository. The tool also includes an emoji-section map to categorize different types of content.",
+        "section": "projects"
     }
 }
