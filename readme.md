@@ -2,11 +2,11 @@
 
 ## Setup
 
-Install everything from npm (Node 12 minimum needed) and setup needed dirs:
+Install everything from npm (Node 18 minimum needed) and setup needed dirs:
 
 ```bash
-npm i
-npx tsc *.ts
+pnpm install
+pnpm run prepare
 ```
 
-Run `node ping_standalone.js`
+Run `node dist/ping_standalone.js`
